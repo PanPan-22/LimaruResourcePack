@@ -1,0 +1,166 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/gold_ingot"
+        },
+        "entries": [
+            {
+                "threshold": 10200,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/lp/2/signal_mn_2_0_mn0"
+                }
+            },
+            {
+                "threshold": 10201,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/lp/2/signal_mn_2_0_mn1"
+                }
+            },
+            {
+                "threshold": 10210,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/lp/2/signal_mn_2_1_mn0"
+                }
+            },
+            {
+                "threshold": 10211,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/lp/2/signal_mn_2_1_mn1"
+                }
+            },
+            {
+                "threshold": 10212,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/lp/2/signal_mn_2_1_st1"
+                }
+            },
+            {
+                "threshold": 10220,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/lp/2/signal_mn_2_2_mn0"
+                }
+            },
+            {
+                "threshold": 10221,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/lp/2/signal_mn_2_2_mn1"
+                }
+            },
+            {
+                "threshold": 10222,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/lp/2/signal_mn_2_2_mn2"
+                }
+            },
+            {
+                "threshold": 10230,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/lp/2/signal_mn_2_3_mn0"
+                }
+            },
+            {
+                "threshold": 10231,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/lp/2/signal_mn_2_3_mn1"
+                }
+            },
+            {
+                "threshold": 10232,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/lp/2/signal_mn_2_3_mn2"
+                }
+            },
+            {
+                "threshold": 10233,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/lp/2/signal_mn_2_3_st1"
+                }
+            },
+            {
+                "threshold": 10280,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/lp/2/signal_dt_2_0_dt0"
+                }
+            },
+            {
+                "threshold": 10281,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/lp/2/signal_dt_2_0_dt1"
+                }
+            },
+            {
+                "threshold": 10282,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/lp/2/signal_dt_2_0_dt2"
+                }
+            },
+            {
+                "threshold": 10290,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/lp/2/signal_dt_2_1_dt0"
+                }
+            },
+            {
+                "threshold": 10291,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/lp/2/signal_dt_2_1_dt1"
+                }
+            },
+            {
+                "threshold": 10292,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/lp/2/signal_dt_2_1_dt2"
+                }
+            },
+            {
+                "threshold": 10293,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/lp/2/signal_dt_2_1_dt0r"
+                }
+            },
+            {
+                "threshold": 10294,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/lp/2/signal_dt_2_1_dt1r"
+                }
+            },
+            {
+                "threshold": 10295,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/lp/2/signal_dt_2_1_dt2r"
+                }
+            },
+            {
+                "threshold": 99999,
+                "model": {
+                    "type": "model",
+                    "model": "item/gold_ingot"
+                }
+            }
+        ]
+    }
+}
